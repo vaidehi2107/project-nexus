@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to bottom,#5b5b5b ,#868484,#bdbbbb,#f9f9f9,#ffff);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    align-self: center;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 4px;
+    font-size: 12px;
+    border: 2px solid #ccc ;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    align-self: center;
+
+}
+#form h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style:inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form button{
+    padding: 20px;
+    width: 100%;
+    color: white;
+    background : linear-gradient(rgb(85, 85, 85),rgb(0, 0, 0));
+    border: none;
+    border-radius: 4px;
+}
+.input-control{
+    display: flex;
+    flex-flow: column;
+}
+.input-control input{
+    padding: 10px;
+    border: 2px solid #f6f6f6;
+    display: block;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.input-control.success input{
+    border-color: rgb(66, 199, 66);
+}
+.input-control.error input{
+    border-color: red;
+}
+.input-control .error{
+    color: red;
+    font-size: 9px;
+    height: 12px;
+}
+@media(max-width:600px){
+    .container{
+       min-width: 200px;
+       margin-top: 20px;
+       margin-bottom: 50px;
+    }   
+    .input-control{
+       max-height: 300px;
+       overflow: auto;
+       justify-content: space-between;
+      
+    }
+   }

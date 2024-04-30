@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign Up.css">
+    <script defer src="./Sign Up.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id = "username" placeholder="Enter Username" name="username" type="text" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id = "email" placeholder="Enter Email address" name="email" type="text" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="contact">Contact</label>
+                <input id = "contact" placeholder="Enter Contact number" name="contact" type="number" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id = "password" placeholder="Enter Password"name="password" type="password" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Confirm Password</label>
+                <input id = "password2" placeholder="Re-enter Password"name="password2" type="password" required>
+                <div class="error"></div>
+                <div class="input-control">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div class="input-control">
+                    <p>Already have an account? <a href="Login.html">Login</a>.</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
