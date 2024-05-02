@@ -1,0 +1,18 @@
+.gallery-item img {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+footer {
+    background-color: #4b4137;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 10px 0;
+}
+.container{
+    background-color: rgb(107, 100, 94);
+    
+}

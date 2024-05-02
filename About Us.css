@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    margin: 0;
+    color: #f5f5dc;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us {
+    background-color: #f5f5dc;
+    padding: 40px 0;
+}
+
+.about-us h2 {
+    color: #4d3319;
+}
+
+.about-us p {
+    color: #4d3319;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #4b4137;
+    text-align: center;
+    color: #f5f5dc;
+    padding: 10px 0;
+}
